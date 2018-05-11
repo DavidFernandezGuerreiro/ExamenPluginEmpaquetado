@@ -42,7 +42,7 @@ public final class ExamenPluginAction implements ActionListener {
                 
         try {
             
-            String cmd="cmd /c javapackager -deploy -native deb -Bcategory="+Bcategory+
+            String cmd="javapackager -deploy -native deb -Bcategory="+Bcategory+
                     " -outdir "+outdir+" -outfile "+outfile+" -srcdir "+srcdir+" -srcfiles "+srcfiles+
                     " -appclass "+appclass+" -title "+title+" -Bicon="+Bicon;
             

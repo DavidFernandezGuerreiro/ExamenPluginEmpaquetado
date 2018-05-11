@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AppHello.jnlp">
+  <information>
+    <title>AppHello</title>
+    <vendor>Unknown</vendor>
+    <description>none</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="HelloWorld.jar" size="1200" download="null" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="helloworld.HelloWorld"  name="HelloWorld" />
+  <update check="background"/>
+</jnlp>
